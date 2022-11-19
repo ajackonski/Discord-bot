@@ -1,0 +1,13 @@
+  {
+  "name": "Start on Heroku: Python",
+  "description": "A discord bot running on heroku",
+  "image": "heroku/python",
+  "repository": "https://github.com/graffam/Discord-bot",
+  "keywords": ["python"],
+  "env": {
+    "DISCORD_TOKEN": {
+      "description": "The token required to authenticate with discord",
+      "generator": "secret"
+    }
+  }
+}

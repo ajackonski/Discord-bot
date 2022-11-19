@@ -2,10 +2,8 @@ from client import MyClient
 import os
 
 import discord
-from dotenv import load_dotenv
 
-load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.environ['DISCORD_TOKEN']
 print(TOKEN)
 intents = discord.Intents.default()
 

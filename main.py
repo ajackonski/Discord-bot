@@ -15,5 +15,4 @@ client = MyClient(intents=intents)
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
 
-client.run("MTA0MzM1ODkwMzcxMjM2NjYxMg.GGfsEM.0OTeOReE_TtCRlbtvp2blHAv8_yp9ti_FW-HJQ")
-
+client.run(TOKEN)
